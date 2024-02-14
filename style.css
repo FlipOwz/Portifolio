@@ -1,0 +1,14 @@
+body {
+    background-color:#1a0b1d ;
+    color:#F6F6F6;
+}
+
+strong {
+    color: #f6fa0f
+}
+
+.titulo-destaque{
+    color: #f6fa0f;
+    border: 1px solid #c90af0;
+    padding: 10px;
+}

@@ -1,1 +1,1 @@
-# Portifolio
+# Projeto para o meu próprio portifólio, inicialmente apenas com informações de contato.
