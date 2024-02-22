@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -11,6 +12,8 @@ body {
     box-sizing: border-box;
     background-color:#1a0b1d ;
     color:#F6F6F6;
+    position: relative;
+    padding-bottom: 10px;
 }
 
 
@@ -70,12 +73,25 @@ body {
 }
 
 .footer_texto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 90%;
-    margin-bottom: auto;
     position: relative;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    font-size: 1.2rem;
     font-family: 'Montserrat', sans-serif;
+    background-color: #22D4FD;
+    color: #000000;
+    font-weight: bold;
+}
+
+.footer_texto_secundario {
+    position: relative;
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #22D4FD;
+    color: #000000;
+    font-weight: bold;
 }
