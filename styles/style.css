@@ -41,7 +41,7 @@ body {
 
 
 .titulo-destaque{
-    color: #f6fa0f;
+    color: #fa8c0f;
 }
 
 .corpo{
@@ -83,12 +83,12 @@ body {
     text-decoration: none;
     color: #000000;
     font-family: 'Montserrat', sans-serif;
-    box-shadow: inset 0 0 0 0 #f6fa0f;
+    box-shadow: inset 0 0 0 0 #fa8c0f;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .apresentacao__links__link:hover {
-    box-shadow: inset 250px 0 0 0 #f6fa0f;
+    box-shadow: inset 250px 0 0 0 #fa8c0f;
     color: #000000;
 }
 
@@ -96,6 +96,7 @@ body {
     width: 450px;
     border-radius: 25px;
     margin-left: 15px;
+    border: 4px solid #fa8c0f;
 }
 
 .footer_texto {
