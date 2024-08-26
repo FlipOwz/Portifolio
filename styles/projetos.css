@@ -79,7 +79,6 @@
     row-gap: 1.5rem;
     color: #FFFF;
     transition: background-image 0.3s, color 0.3s;
-
 }
 
 .section__cards-spotify:hover {
@@ -116,16 +115,61 @@
     opacity: 1;
 }
 
+.section__cards-freestyle {
+    background-image: linear-gradient(to bottom, transparent 0%, #ffffff 75%), url("/assets/img/Banner_Freestyle.png");
+    height: 400px;
+    max-width: 100%;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    row-gap: 1.5rem;
+    color: #000000;
+    transition: background-image 0.3s, color 0.3s;
+}
+
+.section__cards-freestyle:hover {
+    background-image: linear-gradient(to bottom, transparent 0%, #ffffff 50%), url("/assets/img/Banner_Freestyle.png");
+
+}
+
+.section__cards-freestyle h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: #22D4FD;
+    padding: 5px;
+    border-radius: 0.2rem;
+    color: #000000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.section__cards-freestyle a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner_freestyle {
+    width: 450px;
+    border-radius: 25px;
+    opacity: 1;
+}
+
 @media (max-width: 768px) {
     .section__cards-auxiliamed,
-    .section__cards-spotify {
+    .section__cards-spotify,
+    .section__cards-freestyle {
         height: auto; /* Ajuste a altura automaticamente */
         padding: 20px;
         flex-direction: column;
     }
 
     .section__cards-auxiliamed h1,
-    .section__cards-spotify h1 {
+    .section__cards-spotify h1,
+    .section__cards-freestyle h1 {
         font-size: 1.5rem;
     }
 
